@@ -9,6 +9,10 @@
 ----------
 
 
+
+![seattle](https://www.racialequityalliance.org/wp-content/uploads/2016/10/assessors_social-1.jpg)
+
+
 ## Overview
 This project analyzes King County residential real estate in Washington state.
 
