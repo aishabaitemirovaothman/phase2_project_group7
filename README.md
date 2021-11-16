@@ -37,12 +37,16 @@ This dataset contains information about residential real estate in King County b
 * First Simple Linear Regression
 * Improved Model
 
-## Sources
-* [King Country Average Income](https://kingcounty.gov/independent/forecasting/King%20County%20Economic%20Indicators/Household%20Income.aspx)
-* [How Long To Save For A House](https://www.cnbc.com/2018/07/13/want-to-buy-a-house-this-is-how-long-youll-have-to-save.html)
-* [How Much Home Can I Afford](https://www.zillow.com/mortgage-calculator/house-affordability/)
+
 
 ## Conclusions
 *
 *
 *
+
+
+
+## Sources
+* [King Country Average Income](https://kingcounty.gov/independent/forecasting/King%20County%20Economic%20Indicators/Household%20Income.aspx)
+* [How Long To Save For A House](https://www.cnbc.com/2018/07/13/want-to-buy-a-house-this-is-how-long-youll-have-to-save.html)
+* [How Much Home Can I Afford](https://www.zillow.com/mortgage-calculator/house-affordability/)
