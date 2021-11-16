@@ -1,1 +1,1 @@
-# Examining Parameters that Boost Residential Property Value in King County, WA
+# Linear Regression Modeling of King Country Real Estate Sale Prices
