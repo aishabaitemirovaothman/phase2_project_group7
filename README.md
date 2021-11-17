@@ -1,6 +1,6 @@
 # Linear Regression Modeling of King Country Real Estate Sale Prices
 <p>
-<b>Authors:</b> Aisha Baitemoriva-Othman, Angela Kim, Steven Addison, Wahaj Dar
+<b>Authors:</b> Aisha Baitemirova-Othman, Angela Kim, Steven Addison, Wahaj Dar
 <br>
 <b>Instructor:</b> David Elliott
 </p>
