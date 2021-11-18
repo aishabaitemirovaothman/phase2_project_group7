@@ -26,7 +26,10 @@ This dataset contains information about residential real estate sales in King Co
 
 
 ## Data Preparation & Analysis
-* Visualization 1
+* 
+![image](https://user-images.githubusercontent.com/92397144/142483668-f6f03942-02a3-4f33-8900-6a361a603d7b.png)
+
+
 * Visualization 2
 * Visualization 3
 
