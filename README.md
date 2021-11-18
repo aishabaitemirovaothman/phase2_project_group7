@@ -60,9 +60,9 @@ The mean squared errors are 0.071229 and 0.070721 for the training and testing s
 
 
 ## Conclusions
-*
-*
-*
+
+Based on our models that we created for Windermere Real Estate which analyzes residential real estate sales in King County, Washington. The data that was used to create the model predicts price based on the features given. Based on our analysis we can safely say that houses that are closer to big cities like Seattle or Bellevue have higher prices. We can also state that Linear regression is not a good model for this data.
+
 
 
 
