@@ -51,10 +51,12 @@ The independent features that we used for this model are ['bedrooms', 'bathrooms
 
 The third predictive model that we ran has mean R-squared scores of 0.759605 and 0.757399 for the training and testing sets respectively. The mean squared errors are lower than the last time: 0.043997 (for the training set) and 0.044998 (for the testing set). The variables 'sqft_living' and 'distance_from_bellevue' are logarithmically transformed this time to account for their original skewed distribution.
 * 
-* Improved Model 4
-* 
+
 * Final Model
 
+Prior to running our final predictive model we ran a stepwise regression algorithm to pick the features that have the lowest p-values. The algorithm recommended the following features : 'distance_from_bellevue', 'view_NONE', 'floors', 'bedrooms', 'sqft_living', 'yr_built', 'sqft_lot', 'waterfront', 'sqft_basement' and 'yr_renovated'. We ran the predictive model with those returned features as our independent variables and got the following results:
+Training set mean R-squared score: 0.610368, Testing set mean R-squared score: 0.620325.
+The mean squared errors are 0.071229 and 0.070721 for the training and testing sets respectively. 
 
 
 ## Conclusions
