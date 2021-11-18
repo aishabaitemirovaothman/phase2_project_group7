@@ -48,6 +48,7 @@ The independent features that we used for this model are ['bedrooms', 'bathrooms
        'waterfront', 'condition', 'grade', 'yr_built', 'sqft_living_log']. 
 * 
 * Improved Model 3
+The third predictive model that we ran has mean R-squared scores of 0.759605 and 0.757399 for the training and testing sets respectively. The mean squared errors are lower than the last time: 0.043997 (for the training set) and 0.044998 (for the testing set). The variables 'sqft_living' and 'distance_from_bellevue' are logarithmically transformed this time to account for their original skewed distribution.
 * 
 * Improved Model 4
 * 
