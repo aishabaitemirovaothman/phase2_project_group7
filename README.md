@@ -1,4 +1,4 @@
-# Linear Regression Modeling of King Country Real Estate Sale Prices
+# Linear Regression Modeling of King County Real Estate Sale Prices
 <p>
 <b>Authors:</b> Aisha Baitemirova-Othman, Angela Kim, Steven Addison, Wahaj Dar
 <br>
@@ -14,15 +14,15 @@
 
 
 ## Overview
-This project analyzes King County residential real estate in Washington state.
+This project analyzes residential real estate sales in King County, Washington, and uses the data to create a model that predicts price based on the parameters given.
 
 
 ## Business Problem
-Real estate agencies........
+Windermere Real Estate, based in Seattle, Washington, wants to better serve home buyers by being able to accurately present a price point using features of a house (ie. number of bedrooms) that buyers are looking for.
 
 
 ## Data Understanding
-This dataset contains information about residential real estate in King County between May 2014 - May 2015. It includes details such as number of bedrooms and bathrooms, square footage of the home, and various features regarding location.
+This dataset contains information about residential real estate sales in King County between May 2014 - May 2015. It includes details such as number of bedrooms and bathrooms, square footage of the home, and various features regarding location.
 
 
 ## Data Preparation & Analysis
@@ -33,9 +33,19 @@ This dataset contains information about residential real estate in King County b
 
 
 ## Modeling
-* Baseline Model
-* First Simple Linear Regression
-* Improved Model
+* Baseline Model (DummyRegressor)
+* 
+* First Simple Linear Regression (X='price_log', y='sqft_living_log')
+* 
+* Improved Model 1
+* 
+* Improved Model 2
+* 
+* Improved Model 3
+* 
+* Improved Model 4
+* 
+* Final Model
 
 
 
@@ -47,6 +57,6 @@ This dataset contains information about residential real estate in King County b
 
 
 ## Sources
-* [King Country Average Income](https://kingcounty.gov/independent/forecasting/King%20County%20Economic%20Indicators/Household%20Income.aspx)
+* [King County Average Income](https://kingcounty.gov/independent/forecasting/King%20County%20Economic%20Indicators/Household%20Income.aspx)
 * [How Long To Save For A House](https://www.cnbc.com/2018/07/13/want-to-buy-a-house-this-is-how-long-youll-have-to-save.html)
 * [How Much Home Can I Afford](https://www.zillow.com/mortgage-calculator/house-affordability/)
