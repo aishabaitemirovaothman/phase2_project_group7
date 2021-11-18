@@ -38,6 +38,10 @@ This dataset contains information about residential real estate sales in King Co
 * First Simple Linear Regression (X='price_log', y='sqft_living_log')
 * 
 * Improved Model 1
+
+The first multiple linear regression model that we ran has mean R-squared scores of 0.651605 and 0.62655 for the training and testing sets respectively. The mean squared errors for the training and testing sets are 0.096902 and 0.102848 respectively.  
+The independent features that we used for this model are ['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors',
+       'waterfront', 'condition', 'grade', 'yr_built', 'sqft_living_log']. 
 * 
 * Improved Model 2
 * 
