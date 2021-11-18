@@ -37,8 +37,15 @@ This dataset contains information about residential real estate sales in King Co
 * 
 * First Simple Linear Regression (X='price_log', y='sqft_living_log')
 * 
-* Improved Model
+* Improved Model 1
 * 
+* Improved Model 2
+* 
+* Improved Model 3
+* 
+* Improved Model 4
+* 
+* Final Model
 
 
 
