@@ -98,11 +98,6 @@ The following models use multiple linear regression with different features to i
 * <b>Multiple Linear Regression Model 2</b>
   * price, sqft_living, and distance_from_bellevue outliers removed.
   * LR2 Train R²: 0.7262127515210657 
-  * LR2 Test R²: 0.7262127515210657
-  * LR2 Train RMSE: 125672.09779613405
-  * LR2 Test RMSE: 126388.69024537751
-  * LR7 Condition Number: 1.0035752027694244e+16
-
   
    
 
@@ -135,6 +130,8 @@ The following models use multiple linear regression with different features to i
 
 
 ## Conclusions
-Based on our models that we created for Windermere Real Estate which analyzes residential real estate sales in King County, Washington. The data that was used to create the models predicts price based on the features given. From our findings we see that houses that are closer to big cities like Seattle or Bellevue have higher prices. The top two features that will positively affect prediction prices are Waterfront and Square foot living. The top two features that will negatively affect prediction price are no view and distance from Bellevue. The Linear Regression did not perform as well as we hoped. 
+After preparing the data, we made seven multiple linear regression models. Our final model was our best performing model with an R2 value of 0.592, RMSE of 0.282, and Condition Number of 23.73. Our strongest predictor variables that will increase house prices are square footage of the house and whether the home is located on a waterfront. The strongest predictors that will decrease cost are homes with no view and being located farther from Bellevue.
 
+Through multiple iterations of our model, we came to the conclusion that linear regression is not the best method to make a predictive model with this dataset. Linear regression is ill suited for a dataset with many categorical variables, as is the case with this dataset.
 
+Our next steps would include gathering more data such as more recent home sales and expanding beyond single family homes into condos and apartments. We would also explore more complex modeling algorithms.
