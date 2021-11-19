@@ -71,7 +71,7 @@ Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regress
 We start off with a baseline model using the highest correlated variable with price, which is sqft_living. We log transform price and sqft_living to get them normally distributed.
 * <b>Baseline Model (DummyRegressor)</b>
    * Baseline Train R²: 0.0
-   * Baseline Test R²: -0.0007134868228084734
+   * Baseline Test R²: -0.0005141387181422097
 
 
 Our next model uses simple linear regression with the price_log and sqft_living_log variables.
