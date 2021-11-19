@@ -74,11 +74,11 @@ We start off with a baseline model using the highest correlated variable with pr
 
 
 Our next model uses simple linear regression with the price_log and sqft_living_log variables.
-  * Simple LR Train R²: 0.4559935622464675
-  * Simple LR Test R²: 0.4533592790543598
-  * Simple LR Train RMSE: 0.38932939001222455
-  * Simple LR Test RMSE: 0.3863726040140355
-  * Simple Condition Number: 136.8975981292544
+    * Simple LR Train R²: 0.4559935622464675
+    * Simple LR Test R²: 0.4533592790543598
+    * Simple LR Train RMSE: 0.38932939001222455
+    * Simple LR Test RMSE: 0.3863726040140355
+    * Simple Condition Number: 136.8975981292544
 
   
 
@@ -97,11 +97,11 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 2</b>
  * price, sqft_living, and distance_from_bellevue outliers removed. 
- * LR2 Train R²: 0.7262127515210657
- * LR2 Test R²: 0.7262127515210657
- * LR2 Train RMSE: 125672.09779613405
- * LR2 Test RMSE: 126388.69024537751
- * LR7 Condition Number: 1.0035752027694244e+16
+  * LR2 Train R²: 0.7262127515210657
+  * LR2 Test R²: 0.7262127515210657
+  * LR2 Train RMSE: 125672.09779613405
+  * LR2 Test RMSE: 126388.69024537751
+  * LR7 Condition Number: 1.0035752027694244e+16
    
 
 
