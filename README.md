@@ -115,7 +115,13 @@ The following models use multiple linear regression with different features to i
 
 
 * <b>Multiple Linear Regression Model 4</b>
-   *
+   * LR4 Train R²: 0.588175511728797
+   * LR4 Test R²: 0.5981068463670351
+   * LR4 Train RMSE: 0.28170020490184783
+   * LR4 Test RMSE: 0.2815580293362851
+   * LR4 Condition Number: 9165.499808642742
+   
+   
 
 
 * <b>Multiple Linear Regression Model 5</b>
