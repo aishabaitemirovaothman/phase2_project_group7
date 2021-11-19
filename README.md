@@ -106,10 +106,11 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 3</b>
    * maintaining model 2 with price_log, sqft_living_log, and distance_from_bellevue_log
-   * LR3 Train R²: 0.8493611782756023
-   * LR3 Test R²: 0.4179913127048964
-   * LR3 Train RMSE: 0.18940890733449448
-   * LR3 Test RMSE: 0.30383866884069294
+   * LR3 Train R²: 0.7705456474009538
+   * LR3 Test R²: 0.767801957776184
+   * LR3 Train RMSE: 0.21087371204652933
+   * LR3 Test RMSE: 0.21210114989758455
+  
 
 
 * <b>Multiple Linear Regression Model 4</b>
