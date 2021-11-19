@@ -95,13 +95,13 @@ We start off with a baseline model using the highest correlated variable with pr
 
 
 Our next model uses simple linear regression with the price_log and sqft_living_log variables.
-    * Simple LR Train R²: 0.4559935622464675
-    * Simple LR Test R²: 0.4533592790543598
-    * Simple LR Train RMSE: 0.38932939001222455
-    * Simple LR Test RMSE: 0.3863726040140355
-    * Simple Condition Number: 136.8975981292544
+* <b>Simple Linear Regression</b>
+  * Simple LR Train R²: 0.4559935622464675
+  * Simple LR Test R²: 0.4533592790543598
+  * Simple LR Train RMSE: 0.38932939001222455
+  * Simple LR Test RMSE: 0.3863726040140355
+  * Simple Condition Number: 136.8975981292544
 
-  
 
 
 The following models use multiple linear regression with different features to improve our initial models.
@@ -126,58 +126,59 @@ The following models use multiple linear regression with different features to i
 
 
 * <b>Multiple Linear Regression Model 3</b>
-   * maintaining model 2 with price_log, sqft_living_log, and distance_from_bellevue_log
-   * LR3 Train R²: 0.7710735650508587
-   * LR3 Test R²: 0.7664798818166713
-   * LR3 Train RMSE: 0.21193655370980347
-   * LR3 Test RMSE: 0.20882679492683884
-   * LR3 Condition Number: 1.001320905302204e+16
+  * maintaining model 2 with price_log, sqft_living_log, and distance_from_bellevue_log
+  * LR3 Train R²: 0.7710735650508587
+  * LR3 Test R²: 0.7664798818166713
+  * LR3 Train RMSE: 0.21193655370980347
+  * LR3 Test RMSE: 0.20882679492683884
+  * LR3 Condition Number: 1.001320905302204e+16
   
 
 
 * <b>Multiple Linear Regression Model 4</b>
-   * LR4 Train R²: 0.588175511728797
-   * LR4 Test R²: 0.5981068463670351
-   * LR4 Train RMSE: 0.28170020490184783
-   * LR4 Test RMSE: 0.2815580293362851
-   * LR4 Condition Number: 9165.499808642742
-   
-   
+  * LR4 Train R²: 0.588175511728797
+  * LR4 Test R²: 0.5981068463670351
+  * LR4 Train RMSE: 0.28170020490184783
+  * LR4 Test RMSE: 0.2815580293362851
+  * LR4 Condition Number: 9165.499808642742
+
 
 
 * <b>Multiple Linear Regression Model 5</b>
-   * maintaining fourth model with several predictor variables scaled
-   * LR5 Train R²: 0.5879392642546251
-   * LR5 Test R²: 0.5987762963115495
-   * LR5 Train RMSE: 0.2825149340905738
-   * LR5 Test RMSE: 0.27915393037643454
-   * LR5 Condition Number: 24.921890162559567
+  * maintaining fourth model with several predictor variables scaled
+  * LR5 Train R²: 0.5879392642546251
+  * LR5 Test R²: 0.5987762963115495
+  * LR5 Train RMSE: 0.2825149340905738
+  * LR5 Test RMSE: 0.27915393037643454
+  * LR5 Condition Number: 24.921890162559567
 
 
 
 
 * <b>Multiple Linear Regression Model 6</b>
-   * maintaining fifth model with only keeping selected columns provided by sklearn.feature_selection.RFE
-   * LR6 Train R²: 0.5854459587429532
-   * LR6 Test R²: 0.5858729777718898
-   * LR6 Train RMSE: 0.28363978204734774
-   * LR6 Test RMSE: 0.28282305780280415
-   * LR6 Condition Number: 24.091127817685116
+  * maintaining fifth model with only keeping selected columns provided by sklearn.feature_selection.RFE
+  * LR6 Train R²: 0.5854459587429532
+  * LR6 Test R²: 0.5858729777718898
+  * LR6 Train RMSE: 0.28363978204734774
+  * LR6 Test RMSE: 0.28282305780280415
+  * LR6 Condition Number: 24.091127817685116
 
 
 
 
 * <b>Multiple Linear Regression Model 7</b>
-   * using variables chosen by stepwise regression method
-   * LR7 Train R²: 0.5903916264446546
-   * LR7 Test R²: 0.5916737150909092
-   * LR7 Train RMSE: 0.2817047366292947
-   * LR7 Test RMSE: 0.281559353755675
-   * LR7 Condition Number: 23.730072313671045
+  * using variables chosen by stepwise regression method
+  * LR7 Train R²: 0.5903916264446546
+  * LR7 Test R²: 0.5916737150909092
+  * LR7 Train RMSE: 0.2817047366292947
+  * LR7 Test RMSE: 0.281559353755675
+  * LR7 Condition Number: 23.730072313671045
    
 
 
 ## Conclusions
-Based on our models that we created for Windermere Real Estate which analyzes residential real estate sales in King County, Washington. The data that was used to create the models predicts price based on the features given. From our findings we see that houses that are closer to big cities like Seattle or Bellevue have higher prices. The top two features that will positively affect prediction prices are Waterfront and Square foot living. The top two features that will negatively affect prediction price are no view and distance from Bellevue. The Linear Regression did not perform as well as we hoped. 
+After preparing the data, we made seven multiple linear regression models. Our final model was our best performing model with an R^2 value of 0.592, RMSE of 0.282, and Condition Number of 0.730. Our strongest predictor variables that will increase house prices are square footage of the house and whether the home is located on a waterfront. The strongest predictors that will decrease cost are homes with no view and being located farther from Bellevue.
 
+Through multiple iterations of our model, we came to the conclusion that linear regression is not the best method to make a predictive model with this dataset. Linear regression is ill suited for a dataset with many categorical variables, as is the case with this dataset.
 
+Our next steps would include gathering more data such as more recent home sales and expanding beyond single family homes into condos and apartments. We would also explore more complex modeling algorithms.
