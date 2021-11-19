@@ -97,10 +97,11 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 2</b>
    * price, sqft_living, and distance_from_bellevue outliers removed
-   * LR2 Train R²: 0.8408442364433357
-   * LR2 Test R²: 0.8408442364433357
-   * LR2 Train RMSE: 113650.29120290976
-   * LR2 Test RMSE: 196983.9676039529
+   * LR2 Train R²: 0.7229942448345197
+   * LR2 Test R²: 0.7229942448345197
+   * LR2 Train RMSE: 125261.54344907528
+   * LR2 Test RMSE: 127492.48257594123
+   
 
 
 * <b>Multiple Linear Regression Model 3</b>
