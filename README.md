@@ -76,10 +76,12 @@ We start off with a baseline model using the highest correlated variable with pr
 
 Our next model uses simple linear regression with the price_log and sqft_living_log variables.
 * <b>Simple Linear Regression Model</b>
-   * Simple LR Train R²: 0.4539365370999896
-   * Simple LR Test R²: 0.45928090772142094
-   * Simple LR Train RMSE: 0.3895449577221778
-   * Simple LR Test RMSE: 0.3857350047602717
+* Simple LR Train R²: 0.4565445446385986
+* Simple LR Test R²: 0.4515873022050134
+* Simple LR Train RMSE: 0.38809026782193695
+* Simple LR Test RMSE: 0.3900781771542754
+
+  
 
 
 The following models use multiple linear regression with different features to improve our initial models.
