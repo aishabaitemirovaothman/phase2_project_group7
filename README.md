@@ -65,11 +65,6 @@ Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regress
 
 
 
-<img width="1002" alt="Screen Shot 2021-11-19 at 06 41 56" src="https://user-images.githubusercontent.com/92397144/142624598-7f974cf6-c819-474c-9d2f-b60af79057e4.png">
-
-
-
-
 
 ## Modeling
 We start off with a baseline model using the highest correlated variable with price, which is sqft_living. We log transform price and sqft_living to get them normally distributed.
