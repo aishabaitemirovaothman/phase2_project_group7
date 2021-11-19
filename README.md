@@ -41,10 +41,14 @@ This dataset contains information about residential real estate sales in King Co
 
                      
 
-Simple Linear Regression (left)                                    and  First Multiple Linear Regression (right) 
+Simple Linear Regression Plot (left)                                    and  First Multiple Linear Regression Plot (right) 
 
 <img width="396" alt="simple" src="https://user-images.githubusercontent.com/92397144/142629207-5bda44ac-6a48-4c00-a53f-27ec54d7124c.png">.  <img width="376" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142629346-dcaa57e1-ba4c-4a12-b2a9-5bf82abfe1dc.png">
 
+
+Second Multiple Linear Regression Plot (left) and Third Multiple Linear Regression Plot (right)
+
+<img width="383" alt="lr2" src="https://user-images.githubusercontent.com/92397144/142631469-a34dc09e-39b1-460f-97d2-68eb4c037cff.png">.  <img width="393" alt="lr3" src="https://user-images.githubusercontent.com/92397144/142631490-7c1bd2b5-c5a5-43ee-ab4b-93a5f982bcb0.png">
 
 
 
