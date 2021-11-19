@@ -30,7 +30,8 @@ This dataset contains information about residential real estate sales in King Co
 ## Data Preparation & Analysis
 *Correlation between predictor variables and price:*
 \
-![correlation heatmap](https://user-images.githubusercontent.com/79756630/142519308-558e395b-6a2e-4bbd-afa8-05cb9befe575.png)
+![correlation heatmap]<img width="954" alt="Screen Shot 2021-11-19 at 08 30 40" src="https://user-images.githubusercontent.com/92397144/142639411-700ab189-05e1-4dbb-ae41-dcc834d24e4b.png">
+
 
 <img width="1029" alt="Screen Shot 2021-11-19 at 06 20 37" src="https://user-images.githubusercontent.com/92397144/142622636-8ef78e3c-3cf5-4cc4-9332-8fb21ca7c138.png">
 
