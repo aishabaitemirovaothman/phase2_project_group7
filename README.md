@@ -148,9 +148,12 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 7</b>
    * using variables chosen by stepwise regression method
-   *
+   * LR7 Train R²: 0.5903916264446546
+   * LR7 Test R²: 0.5916737150909092
+   * LR7 Train RMSE: 0.2817047366292947
+   * LR7 Test RMSE: 0.281559353755675
+   * LR7 Condition Number: 23.730072313671045
    
-
 
 
 ## Conclusions
