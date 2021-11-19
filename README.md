@@ -96,8 +96,8 @@ The following models use multiple linear regression with different features to i
 
 
 * <b>Multiple Linear Regression Model 2</b>
- * price, sqft_living, and distance_from_bellevue outliers removed.
- * LR2 Train R²: 0.7262127515210657 
+  * price, sqft_living, and distance_from_bellevue outliers removed.
+  * LR2 Train R²: 0.7262127515210657 
   
    
 
