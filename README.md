@@ -44,22 +44,22 @@ This dataset contains information about residential real estate sales in King Co
 
 Simple Linear Regression Plot (left)                                    and  First Multiple Linear Regression Plot (right) 
 
-<img width="396" alt="simple" src="https://user-images.githubusercontent.com/92397144/142629207-5bda44ac-6a48-4c00-a53f-27ec54d7124c.png">.  <img width="376" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142629346-dcaa57e1-ba4c-4a12-b2a9-5bf82abfe1dc.png">
+<img width="381" alt="simple" src="https://user-images.githubusercontent.com/92397144/142655247-eb224308-019d-4d1e-8d9f-22b93d462737.png">.  <img width="386" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142655274-f382c491-5308-48d1-a705-2b7c4e6b3d78.png">
 
 
 Second Multiple Linear Regression Plot (left) and Third Multiple Linear Regression Plot (right)
 
-<img width="383" alt="lr2" src="https://user-images.githubusercontent.com/92397144/142631469-a34dc09e-39b1-460f-97d2-68eb4c037cff.png">.  <img width="393" alt="lr3" src="https://user-images.githubusercontent.com/92397144/142631490-7c1bd2b5-c5a5-43ee-ab4b-93a5f982bcb0.png">
+
 
 
 Fourth Multiple Linear Regression Plot (left) and Fifth Multiple Linear Regression Plot (right)
 
-<img width="394" alt="lr4" src="https://user-images.githubusercontent.com/92397144/142632655-62b1b086-6cb0-40ca-973a-84b8929df112.png">. <img width="390" alt="lr5" src="https://user-images.githubusercontent.com/92397144/142632671-db219347-d75f-4cae-9e30-57af6fc10a2c.png">
+
 
 
 Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regression Plot (right)
 
-<img width="391" alt="lr6" src="https://user-images.githubusercontent.com/92397144/142632803-11a6f96a-9e13-4fed-953c-439a94a596fe.png">. <img width="383" alt="lr7" src="https://user-images.githubusercontent.com/92397144/142633135-b2895481-2244-4778-9927-50cd5ebe5ec8.png">
+
 
 
 <img width="1213" alt="Screen Shot 2021-11-19 at 08 06 35" src="https://user-images.githubusercontent.com/92397144/142635753-0315880a-6d76-4d4b-95ef-e3ba22cf2774.png">
