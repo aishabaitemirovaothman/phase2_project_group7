@@ -137,7 +137,13 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 6</b>
    * maintaining fifth model with only keeping selected columns provided by sklearn.feature_selection.RFE
-   * 
+   * LR6 Train R²: 0.5854459587429532
+   * LR6 Test R²: 0.5858729777718898
+   * LR6 Train RMSE: 0.28363978204734774
+   * LR6 Test RMSE: 0.28282305780280415
+   * LR6 Condition Number: 24.091127817685116
+
+
 
 
 * <b>Multiple Linear Regression Model 7</b>
