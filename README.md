@@ -70,9 +70,6 @@ Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regress
 
 
 
-# MOAR VISUALIZATIONS MOAR
-
-
 
 ## Modeling
 We start off with a baseline model using the highest correlated variable with price, which is sqft_living. We log transform price and sqft_living to get them normally distributed.
