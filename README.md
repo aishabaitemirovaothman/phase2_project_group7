@@ -8,9 +8,10 @@
 
 ----------
 
+<img width="808" alt="Screen Shot 2021-11-19 at 05 23 09" src="https://user-images.githubusercontent.com/92397144/142615093-e308a75a-f2ab-4c9f-8e80-555dea88295c.png">
 
 
-![seattle](https://www.racialequityalliance.org/wp-content/uploads/2016/10/assessors_social-1.jpg)
+
 
 
 
