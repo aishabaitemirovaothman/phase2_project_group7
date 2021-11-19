@@ -61,11 +61,7 @@ Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regress
 <img width="391" alt="lr6" src="https://user-images.githubusercontent.com/92397144/142632803-11a6f96a-9e13-4fed-953c-439a94a596fe.png">. <img width="383" alt="lr7" src="https://user-images.githubusercontent.com/92397144/142633135-b2895481-2244-4778-9927-50cd5ebe5ec8.png">
 
 
-
-
-
-
-
+<img width="1213" alt="Screen Shot 2021-11-19 at 08 06 35" src="https://user-images.githubusercontent.com/92397144/142635753-0315880a-6d76-4d4b-95ef-e3ba22cf2774.png">
 
 
 
