@@ -123,26 +123,27 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 5</b>
    * maintaining fourth model with several predictor variables scaled
-   * LR5 Train R²: 0.6719992640924004
-   * LR5 Test R²: 0.32461768725012774
-   * LR5 Train RMSE: 0.2762176976590884
-   * LR5 Test RMSE: 0.3414400692863829
+   * LR5 Train R²: 0.5925917160936698
+   * LR5 Test R²: 0.5849328270276504
+   * LR5 Train RMSE: 0.28092879732832116
+   * LR5 Test RMSE: 0.2839115933829854
 
 
 * <b>Multiple Linear Regression Model 6</b>
    * maintaining fifth model with only keeping selected columns provided by sklearn.feature_selection.RFE
-   * LR6 Train R²: 0.5338341577464003
-   * LR6 Test R²: 0.7529863316981513
-   * LR6 Train RMSE: 0.3113031406383723
-   * LR6 Test RMSE: 0.24701464174872836
+   * LR6 Train R²: 0.5826382989469002
+   * LR6 Test R²: 0.5940393992136874
+   * LR6 Train RMSE: 0.2837492570631555
+   * LR6 Test RMSE: 0.28253599986023265
 
 
 * <b>Multiple Linear Regression Model 7</b>
    * using variables chosen by stepwise regression method
-   * LR7 Train R²: 0.6134754038310046
-   * LR7 Test R²: 0.526218872444935
-   * LR7 Train RMSE: 0.30916120210685516
-   * LR7 Test RMSE: 0.25281595772930104
+   * LR7 Train R²: 0.5907216794379092
+   * LR7 Test R²: 0.5906964016125517
+   * LR7 Train RMSE: 0.2822870171324694
+   * LR7 Test RMSE: 0.27977421892787424
+   
 
 
 
