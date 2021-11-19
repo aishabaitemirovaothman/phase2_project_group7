@@ -56,10 +56,14 @@ Second Multiple Linear Regression Plot (left) and Third Multiple Linear Regressi
 
 Fourth Multiple Linear Regression Plot (left) and Fifth Multiple Linear Regression Plot (right)
 
+<img width="377" alt="lr4" src="https://user-images.githubusercontent.com/92397144/142663613-291e53c4-1c0c-487a-a38b-98895a3cb0d3.png">. <img width="377" alt="lr5" src="https://user-images.githubusercontent.com/92397144/142663649-a2209f13-689e-4c67-8638-d4f5c5b9dbd0.png">
+
 
 
 
 Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regression Plot (right)
+
+<img width="378" alt="lr6" src="https://user-images.githubusercontent.com/92397144/142663674-baa08fcd-b86a-4435-855b-d3982f1b510a.png">. <img width="380" alt="lr7" src="https://user-images.githubusercontent.com/92397144/142663693-4f8f9aa0-0042-4d3f-8cf5-9bcb53be7149.png">
 
 
 
