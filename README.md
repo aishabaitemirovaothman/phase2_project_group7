@@ -87,10 +87,12 @@ Our next model uses simple linear regression with the price_log and sqft_living_
 The following models use multiple linear regression with different features to improve our initial models.
 * <b>Multiple Linear Regression Model 1</b>
    * all untouched predictor variables without normalization or scaling
-   * LR1 Train R²: 0.7240453534258711
-   * LR1 Test R²: 0.7253468214700272
-   * LR1 Train RMSE: 193586.57723288581
-   * LR1 Test RMSE: 190693.6245870106
+   * LR1 Train R²: 0.7240530302153445
+   * LR1 Test R²: 0.7252312774532106
+   * LR1 Train RMSE: 195222.9705641599
+   * LR1 Test RMSE: 185656.5523896629
+
+   
 
 
 * <b>Multiple Linear Regression Model 2</b>
