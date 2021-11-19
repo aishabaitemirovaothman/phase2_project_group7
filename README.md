@@ -126,7 +126,13 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 5</b>
    * maintaining fourth model with several predictor variables scaled
-   * 
+   * LR5 Train R²: 0.5879392642546251
+   * LR5 Test R²: 0.5987762963115495
+   * LR5 Train RMSE: 0.2825149340905738
+   * LR5 Test RMSE: 0.27915393037643454
+   * LR5 Condition Number: 24.921890162559567
+
+
 
 
 * <b>Multiple Linear Regression Model 6</b>
