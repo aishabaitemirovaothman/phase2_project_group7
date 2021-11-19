@@ -42,43 +42,48 @@ This dataset contains information about residential real estate sales in King Co
 We start off with a baseline model using the highest correlated variable with price, which is sqft_living. We log transform price and sqft_living to get them normally distributed.
 * <b>Baseline Model (DummyRegressor)</b>
    * Baseline Train R²: 0.0
-   * Baseline Test R²: -3.1441572518886574e-06
+   * Baseline Test R²: -0.0007134868228084734
 
 
 Our next model uses simple linear regression with the price_log and sqft_living_log variables.
 * <b>Simple Linear Regression Model</b>
-   * LR R²: 0.45511314986053364
-   * LR Train Mean Squared Error: 0.1510898776130387
-   * LR Test Mean Squared Error: 0.1507354170701051
+   * Simple LR Train R²: 0.4539365370999896
+   * Simple LR Test R²: 0.45928090772142094
+   * Simple LR Train RMSE: 0.3895449577221778
+   * Simple LR Test RMSE: 0.3857350047602717
 
 
 The following models use multiple linear regression with different features to improve our initial models.
 * <b>Multiple Linear Regression Model 1</b>
    * all untouched predictor variables without normalization or scaling
-   * LR1 R²: 0.7225969246645305
-   * LR1 Train Mean Squared Error: 38257931157.788956
-   * LR1 Test Mean Squared Error: 34034211801.90261
+   * LR1 Train R²: 0.7240453534258711
+   * LR1 Test R²: 0.7253468214700272
+   * LR1 Train RMSE: 193586.57723288581
+   * LR1 Test RMSE: 190693.6245870106
 
 
 * <b>Multiple Linear Regression Model 2</b>
    * price, sqft_living, and distance_from_bellevue outliers removed
-   * LR2 R²: 0.7202156040231042
-   * LR2 Train Mean Squared Error: 14399425171.759562
-   * LR2 Test Mean Squared Error: 14579756051.437109
+   * LR2 Train R²: 0.8408442364433357
+   * LR2 Test R²: 0.8408442364433357
+   * LR2 Train RMSE: 113650.29120290976
+   * LR2 Test RMSE: 196983.9676039529
 
 
 * <b>Multiple Linear Regression Model 3</b>
    * maintaining model 2 with price_log, sqft_living_log, and distance_from_bellevue_log
-   * LR3 R²: 0.7624338571937116
-   * LR3 Train Mean Squared Error: 0.043900609523814534
-   * LR3 Test Mean Squared Error: 0.043306394141288895
+   * LR3 Train R²: 0.8493611782756023
+   * LR3 Test R²: 0.4179913127048964
+   * LR3 Train RMSE: 0.18940890733449448
+   * LR3 Test RMSE: 0.30383866884069294
 
 
 * <b>Multiple Linear Regression Model 4</b>
-   * maintaining third model with several predictor variables removed.
-   * LR4 R²: 0.6202468570293977
-   * LR4 Train Mean Squared Error: 0.07062364476242482
-   * LR4 Test Mean Squared Error: 0.07243899357548968
+   * maintaining third model with with multicollinear variables removed.
+   * LR4 Train R²: 0.6595696487030089
+   * LR4 Test R²: 0.5192006008921743
+   * LR4 Train RMSE: 0.271438276151518
+   * LR4 Test RMSE: 0.3282007564711306
 
 
 * <b>Multiple Linear Regression Model 5</b>
