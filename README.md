@@ -97,8 +97,8 @@ The following models use multiple linear regression with different features to i
 * <b>Multiple Linear Regression Model 7</b>
    * using variables chosen by stepwise regression method
    * LR7 R²: 0.615408636249096
-   * LR7 Train Mean Squared Error: 0.07090187020262134
-   * LR7 Test Mean Squared Error: 0.0716002256061957
+   * LR7 Train Mean Squared Error: 0.11214361495273714
+   * LR7 Test Mean Squared Error: 0.10427050940725877
 
 
 
