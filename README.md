@@ -39,7 +39,8 @@ This dataset contains information about residential real estate sales in King Co
 
 <img width="1001" alt="Screen Shot 2021-11-19 at 06 24 14" src="https://user-images.githubusercontent.com/92397144/142622649-b6bb23e2-ca69-4ebc-a75e-818a567baae4.png">
 
-<img width="396" alt="simple" src="https://user-images.githubusercontent.com/92397144/142627796-1a3ee9b2-22e5-45bf-b4c8-2b654b0499a4.png"> <img width="387" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142627920-2ac8c993-ce10-4ab8-91b4-f4b8f9af1f58.png">
+<img width="396" alt="simple" src="https://user-images.githubusercontent.com/92397144/142627796-1a3ee9b2-22e5-45bf-b4c8-2b654b0499a4.png">     <img width="376" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142628364-8a5faa3a-4ab8-43ec-94ac-4c5f3ad425bd.png">
+
 
 
 
