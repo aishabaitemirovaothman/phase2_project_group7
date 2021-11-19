@@ -115,10 +115,10 @@ The following models use multiple linear regression with different features to i
 
 * <b>Multiple Linear Regression Model 4</b>
    * maintaining third model with with multicollinear variables removed.
-   * LR4 Train R²: 0.6595696487030089
-   * LR4 Test R²: 0.5192006008921743
-   * LR4 Train RMSE: 0.271438276151518
-   * LR4 Test RMSE: 0.3282007564711306
+   * LR4 Train R²: 0.5918253584624475
+   * LR4 Test R²: 0.5869214550514928
+   * LR4 Train RMSE: 0.2823128860273679
+   * LR4 Test RMSE: 0.2798283992518389
 
 
 * <b>Multiple Linear Regression Model 5</b>
