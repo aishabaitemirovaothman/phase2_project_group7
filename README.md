@@ -103,6 +103,6 @@ The following models use multiple linear regression with different features to i
 
 
 ## Conclusions
-Based on our models that we created for Windermere Real Estate which analyzes residential real estate sales in King County, Washington. The data that was used to create the model predicts price based on the features given. Based on our analysis we can safely say that houses that are closer to big cities like Seattle or Bellevue have higher prices. We can also state that Linear regression is not a good model for this data.
+Based on our models that we created for Windermere Real Estate which analyzes residential real estate sales in King County, Washington. The data that was used to create the models predicts price based on the features given. From our findings we see that houses that are closer to big cities like Seattle or Bellevue have higher prices. The top two features that will positively affect prediction prices are Waterfront and Square foot living. The top two features that will negatively affect prediction price are no view and distance from Bellevue. The Linear Regression did not perform as well as we hoped. 
 
 
