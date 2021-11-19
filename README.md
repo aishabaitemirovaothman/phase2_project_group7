@@ -41,22 +41,27 @@ This dataset contains information about residential real estate sales in King Co
 
 Simple Linear Regression Plot (left)                                    and  First Multiple Linear Regression Plot (right) 
 
-<img width="381" alt="simple" src="https://user-images.githubusercontent.com/92397144/142655247-eb224308-019d-4d1e-8d9f-22b93d462737.png">.  <img width="386" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142655274-f382c491-5308-48d1-a705-2b7c4e6b3d78.png">
+<img width="381" alt="simple lr" src="https://user-images.githubusercontent.com/92397144/142663456-b7418c3f-7c03-4501-acc6-63b28352c969.png">. 
+<img width="363" alt="lr1" src="https://user-images.githubusercontent.com/92397144/142663480-9df1f595-6250-40b4-984d-ee5dbf128fc3.png">
+
 
 
 Second Multiple Linear Regression Plot (left) and Third Multiple Linear Regression Plot (right)
 
-<img width="383" alt="lr2" src="https://user-images.githubusercontent.com/92397144/142655867-2a033dd3-387b-48cb-8063-e8ee6e8514ce.png">. <img width="386" alt="lr3" src="https://user-images.githubusercontent.com/92397144/142655899-84fee95f-a38c-4581-a5d1-877ff1ca0f05.png">
+<img width="376" alt="lr2" src="https://user-images.githubusercontent.com/92397144/142663510-3586545f-dc93-44d7-a5fa-d8f0e857f5f1.png">. <img width="378" alt="lr3" src="https://user-images.githubusercontent.com/92397144/142663532-c0bef795-9da9-4efa-ac3b-4e7805650ac5.png">
+
+
+
 
 
 Fourth Multiple Linear Regression Plot (left) and Fifth Multiple Linear Regression Plot (right)
 
-<img width="390" alt="lr4" src="https://user-images.githubusercontent.com/92397144/142656355-38a147bf-724d-4f56-a6f0-d93174aad00e.png">   <img width="384" alt="lr5" src="https://user-images.githubusercontent.com/92397144/142656420-c6fde388-0ea2-48bf-9e7c-e8dd023bb106.png">
+
 
 
 Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regression Plot (right)
 
-<img width="389" alt="lr6" src="https://user-images.githubusercontent.com/92397144/142657021-94478b83-9abe-49ae-9892-012b3d08177a.png">  <img width="385" alt="lr7" src="https://user-images.githubusercontent.com/92397144/142657045-03a2fe17-e0a4-4019-a605-75306bebf5c8.png">
+
 
 
 
