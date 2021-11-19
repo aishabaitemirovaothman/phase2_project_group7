@@ -69,79 +69,65 @@ Sixth Multiple Linear Regression Plot (left) and Seventh Multiple Linear Regress
 ## Modeling
 We start off with a baseline model using the highest correlated variable with price, which is sqft_living. We log transform price and sqft_living to get them normally distributed.
 * <b>Baseline Model (DummyRegressor)</b>
-   * Baseline Train R²: 0.0
-   * Baseline Test R²: -0.0005141387181422097
+* Baseline Train R²: 0.0
+* Baseline Test R²: -7.611977848931417e-06
 
 
 Our next model uses simple linear regression with the price_log and sqft_living_log variables.
-* <b>Simple Linear Regression Model</b>
-* Simple LR Train R²: 0.4565445446385986
-* Simple LR Test R²: 0.4515873022050134
-* Simple LR Train RMSE: 0.38809026782193695
-* Simple LR Test RMSE: 0.3900781771542754
+* Simple LR Train R²: 0.4559935622464675
+* Simple LR Test R²: 0.4533592790543598
+* Simple LR Train RMSE: 0.38932939001222455
+* Simple LR Test RMSE: 0.3863726040140355
+* Simple Condition Number: 136.8975981292544
 
   
 
 
 The following models use multiple linear regression with different features to improve our initial models.
 * <b>Multiple Linear Regression Model 1</b>
-   * all untouched predictor variables without normalization or scaling
-   * LR1 Train R²: 0.7240530302153445
-   * LR1 Test R²: 0.7252312774532106
-   * LR1 Train RMSE: 195222.9705641599
-   * LR1 Test RMSE: 185656.5523896629
+* all untouched predictor variables without normalization or scaling  
+*  LR1 Train R²: 0.7227415083845596
+*  LR1 Test R²: 0.7280296563595856
+*  LR1 Train RMSE: 191512.90263985636
+*  LR1 Test RMSE: 197177.0082445334
+*  LR1 Condition Number: 1.006084430986517e+16
 
    
 
 
 * <b>Multiple Linear Regression Model 2</b>
-   * price, sqft_living, and distance_from_bellevue outliers removed
-   * LR2 Train R²: 0.7229942448345197
-   * LR2 Test R²: 0.7229942448345197
-   * LR2 Train RMSE: 125261.54344907528
-   * LR2 Test RMSE: 127492.48257594123
+   * price, sqft_living, and distance_from_bellevue outliers removed. 
+ * LR2 Train R²: 0.7262127515210657
+ * LR2 Test R²: 0.7262127515210657
+ * LR2 Train RMSE: 125672.09779613405
+ * LR2 Test RMSE: 126388.69024537751
+ * LR7 Condition Number: 1.0035752027694244e+16
    
 
 
 * <b>Multiple Linear Regression Model 3</b>
    * maintaining model 2 with price_log, sqft_living_log, and distance_from_bellevue_log
-   * LR3 Train R²: 0.7705456474009538
-   * LR3 Test R²: 0.767801957776184
-   * LR3 Train RMSE: 0.21087371204652933
-   * LR3 Test RMSE: 0.21210114989758455
+   * 
   
 
 
 * <b>Multiple Linear Regression Model 4</b>
-   * maintaining third model with with multicollinear variables removed.
-   * LR4 Train R²: 0.5918253584624475
-   * LR4 Test R²: 0.5869214550514928
-   * LR4 Train RMSE: 0.2823128860273679
-   * LR4 Test RMSE: 0.2798283992518389
+   *
 
 
 * <b>Multiple Linear Regression Model 5</b>
    * maintaining fourth model with several predictor variables scaled
-   * LR5 Train R²: 0.5925917160936698
-   * LR5 Test R²: 0.5849328270276504
-   * LR5 Train RMSE: 0.28092879732832116
-   * LR5 Test RMSE: 0.2839115933829854
+   * 
 
 
 * <b>Multiple Linear Regression Model 6</b>
    * maintaining fifth model with only keeping selected columns provided by sklearn.feature_selection.RFE
-   * LR6 Train R²: 0.5826382989469002
-   * LR6 Test R²: 0.5940393992136874
-   * LR6 Train RMSE: 0.2837492570631555
-   * LR6 Test RMSE: 0.28253599986023265
+   * 
 
 
 * <b>Multiple Linear Regression Model 7</b>
    * using variables chosen by stepwise regression method
-   * LR7 Train R²: 0.5907216794379092
-   * LR7 Test R²: 0.5906964016125517
-   * LR7 Train RMSE: 0.2822870171324694
-   * LR7 Test RMSE: 0.27977421892787424
+   *
    
 
 
